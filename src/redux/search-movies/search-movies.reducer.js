@@ -1,7 +1,6 @@
-import { act } from "react-dom/test-utils";
 import { types } from "./search-movies.types";
 
-const initialState = {
+export const initialState = {
     searchedMovie: "",
 };
 

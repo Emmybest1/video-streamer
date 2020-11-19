@@ -1,6 +1,6 @@
 import { types } from "./movies.types";
 
-const initialState = {
+export const initialState = {
     isLoading: true,
     error: null,
     movies: [],
