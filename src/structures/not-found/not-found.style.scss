@@ -1,0 +1,26 @@
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+    & * {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    & > img {
+        width: 60%;
+    }
+
+    & > h3 {
+        padding-top: 1.4em;
+    }
+
+    & > .go-home {
+        border-radius: 5px;
+        background-color: #1c0203;
+        color: #fff;
+        margin-top: 20px;
+    }
+}

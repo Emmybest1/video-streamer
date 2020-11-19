@@ -1,0 +1,44 @@
+.menu-items-container {
+    background-color: #1c0203;
+    border-top: solid 1px #070101;
+    width: 50%;
+    max-width: 70%;
+    height: 100vh;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+
+    & ul li {
+        cursor: pointer;
+        padding: 1em 0;
+        border-bottom: solid 0.8px #250304;
+        transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        & .anchor {
+            color: #fff;
+            font-size: 0.8em;
+        }
+    }
+    & .cancel-btn-wrapper {
+        display: flex;
+        justify-content: flex-end;
+
+        & .fa-times {
+            text-align: right;
+            color: #fff;
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+    }
+}
+
+#menu-items-container {
+    @media (min-width: 1200px) {
+        width: 40%;
+    }
+}

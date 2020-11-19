@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Suspense } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Header from "./structures/header/header.component";
+import Footer from "./structures/footer/footer.component";
+import HomePage from "./pages/home/home.component";
+import Movies from "./pages/movies/movies.component";
+import Movie from "./pages/movie/movie.component";
+import ErrorBoundary from "./structures/error-boundary/error-boundary.component";
+import NotFound from "./structures/not-found/not-found.component";
+import "./app.style.scss";
+
+const App = () => {
+    return (
+        <>
+            <a href="#main">Skip to main content</a>
+            <Router>
+                <ErrorBoundary>
+                    <Header />
+                    <Suspense fallback={<p>Loading...</p>}>
+                        <Switch>
+                            <Route exact path="/" component={HomePage} />
+                            <Route exact path="/movies/" component={Movies} />
+                            <Route exact path="/movie/" component={Movie} />
+                            <Route component={NotFound} />
+                        </Switch>
+                    </Suspense>
+                    <Footer />
+                </ErrorBoundary>
+            </Router>
+        </>
+    );
+};
 
 export default App;

@@ -1,0 +1,26 @@
+@import "../../app.style.scss";
+
+.searchbar-container {
+    @include displayFlex(row, center);
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    & [type="search"] {
+        width: 75%;
+        height: 30px;
+        margin: 0;
+        padding-left: 0.7em;
+    }
+
+    & [type="submit"] {
+        width: 25%;
+        height: 30px;
+        margin: 0;
+        transform: scale(1.1);
+    }
+
+    & [type="submit"]:hover {
+        transform: scale(1.1);
+    }
+}

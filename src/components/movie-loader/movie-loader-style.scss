@@ -1,0 +1,38 @@
+.movie-loader-container {
+    background-color: #010101;
+    height: 100vh;
+
+    & ul {
+        margin-top: 2em;
+        color: #eee;
+        & li section {
+            text-align: center;
+            & * {
+                padding: 0.4em 0;
+            }
+            & .title {
+                font-size: 1.2em;
+            }
+
+            & .lang-type {
+                font-size: 0.8em;
+            }
+
+            & .desc {
+                font-size: 0.8em;
+            }
+        }
+    }
+
+    & .go-home {
+        margin: 0 auto;
+        background-color: #f40612;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+}

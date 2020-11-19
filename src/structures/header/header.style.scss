@@ -1,0 +1,44 @@
+@import "../../app.style.scss";
+
+header {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+
+    & nav ul {
+        @include displayFlex(row, space-between);
+
+        & li .logo {
+            font-size: 0.9em;
+            color: #fff;
+        }
+    }
+
+    & .menu-icon {
+        cursor: pointer;
+        color: #fff;
+
+        & .top,
+        & .middle,
+        & .bottom {
+            background-color: #fff;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            cursor: pointer;
+            display: block;
+            margin: 4px 0;
+            width: 50px;
+            height: 3px;
+        }
+
+        & .bottom {
+            width: 30px;
+        }
+    }
+}

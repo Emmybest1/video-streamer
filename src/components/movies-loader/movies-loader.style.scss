@@ -1,0 +1,44 @@
+.movies-loader-container {
+    & ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        & li {
+            width: 40%;
+            margin: 0 auto;
+
+            & section {
+                & img {
+                    height: 180px;
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 5px;
+                    border: solid 1px #000;
+                    cursor: pointer;
+                    transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+
+                    @media (min-width: 900px) {
+                        height: 350px;
+                    }
+                }
+
+                & p {
+                    font-size: 0.9rem;
+                    font-weight: 500;
+                    padding-top: 1em;
+                    text-align: center;
+                    color: #000;
+                }
+            }
+
+            @media (min-width: 900px) {
+                width: 30%;
+            }
+        }
+    }
+}

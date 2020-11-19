@@ -1,0 +1,11 @@
+.error-boundary-container {
+    & img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    & p {
+        text-align: center;
+        font-size: 1em;
+    }
+}
