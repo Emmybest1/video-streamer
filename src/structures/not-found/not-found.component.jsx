@@ -13,7 +13,7 @@ const NotFound = (props) => {
         }, 3000);
 
         return () => clearTimeout(redirect);
-    }, []);
+    }, [props.history]);
 
     return (
         <Main>
