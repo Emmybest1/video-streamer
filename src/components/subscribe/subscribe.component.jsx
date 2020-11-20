@@ -1,12 +1,16 @@
 import React, { useState } from "react";
-
+import { useDispatch } from "react-redux";
+//custom hooks
 import { useUniqueIds } from "../../hooks/useUniqueIds";
+//redux action
+import { postEmailSubscriptionRequest } from "../../redux/root.actions";
 import Input from "../input/input.component";
 import "./subscribe.style.scss";
 
 const Subscribe = () => {
     const [email, setEmail] = useState("");
     const [emailId, submitBtnId] = useUniqueIds(2);
+    const dispatch = useDispatch();
 
     const onChangeHandler = (e) => {
         setEmail(e.target.value);
@@ -14,9 +18,8 @@ const Subscribe = () => {
 
     const onSubmitHandler = (e) => {
         e.preventDefault();
-        console.log(email);
+        dispatch(postEmailSubscriptionRequest({ email: email }));
         setEmail("");
-        //redux action here
     };
     return (
         <form onSubmit={onSubmitHandler} data-test="subscribeForm">

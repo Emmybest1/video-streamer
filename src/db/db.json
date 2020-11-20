@@ -1,117 +1,126 @@
 {
-    "movies": [
-        {
-            "id": 1,
-            "title": "Invader",
-            "description": "är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, ",
-            "url": "https://www.youtube.com/embed/CUAMV-ADiv4",
-            "poster": "https://i.ibb.co/PrSJQff/action-poster1.jpg",
-            "release-date": "02.02.2020",
-            "language": "English",
-            "running-time": "1:30mins",
-            "quality": "HD",
-            "type": "action"
-        },
-        {
-            "id": 2,
-            "title": "The experiment",
-            "description": "är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, ",
-            "url": "https://www.youtube.com/embed/CUAMV-ADiv4",
-            "poster": "https://i.ibb.co/J5Lgmsn/action-poster3.jpg",
-            "release-date": "02.02.2020",
-            "language": "English",
-            "running-time": "1:30mins",
-            "quality": "HD",
-            "type": "action"
-        },
-        {
-            "id": 3,
-            "title": "THE hitman's bodyguard",
-            "description": "är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, ",
-            "url": "https://www.youtube.com/embed/CUAMV-ADiv4",
-            "poster": "https://i.ibb.co/J5Lgmsn/action-poster3.jpg",
-            "release-date": "01.02.202",
-            "language": "English",
-            "running-time": "1:30mins",
-            "quality": "HD",
-            "type": "action"
-        },
-
-        {
-            "id": 4,
-            "title": "Nite of a thousand laugh",
-            "description": "är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, ",
-            "url": "https://www.youtube.com/embed/sg-Qaeh__H4",
-            "poster": "https://i.ibb.co/gzJRsh4/tv-show1.jpg",
-            "release-date": "02.02.2020",
-            "language": "English",
-            "running-time": "1:30mins",
-            "quality": "HD",
-            "type": "tv-show"
-        },
-        {
-            "id": 5,
-            "title": "Gradualism is not dormancy",
-            "description": "är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, ",
-            "url": "https://www.youtube.com/embed/sg-Qaeh__H4",
-            "poster": "https://i.ibb.co/dJvYNr0/High-Fidelity-Weird-But-Warm-Episode-106-When-Liam-returns-from-tour-Rob-is-caught-between-the-fanta.jpg",
-            "release-date": "02.02.2020",
-            "language": "English",
-            "running-time": "1:30mins",
-            "quality": "HD",
-            "type": "tv-show"
-        },
-
-        {
-            "id": 6,
-            "title": "Laughing Machine",
-            "description": "är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, ",
-            "url": "https://www.youtube.com/embed/sg-Qaeh__H4",
-            "poster": "https://i.ibb.co/gzJRsh4/tv-show1.jpg",
-            "release-date": "02.02.2020",
-            "language": "English",
-            "running-time": "1:30mins",
-            "quality": "HD",
-            "type": "tv-show"
-        },
-
-        {
-            "id": 7,
-            "title": "Comedy random",
-            "description": "är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, ",
-            "url": "https://www.youtube.com/embed/s0gdBeTqql8",
-            "poster": "https://i.ibb.co/6N2KRP0/comedy-poster1.jpg",
-            "release-date": "02.02.2020",
-            "language": "English",
-            "running-time": "1:30mins",
-            "quality": "HD",
-            "type": "comedy"
-        },
-        {
-            "id": 8,
-            "title": "Mr Bean goes wrong",
-            "description": "är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, ",
-            "url": "https://www.youtube.com/embed/s0gdBeTqql8",
-            "poster": "https://i.ibb.co/3BZ1Y02/comedy-poster2.jpg",
-            "release-date": "02.02.2020",
-            "language": "English",
-            "running-time": "1:30mins",
-            "quality": "HD",
-            "type": "comedy"
-        },
-        {
-            "id": 9,
-            "title": "One wedding",
-            "description": "är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, ",
-            "url": "https://www.youtube.com/embed/s0gdBeTqql8",
-            "poster": "https://i.ibb.co/3BZ1Y02/comedy-poster2.jpg",
-            "release-date": "02.02.2020",
-            "language": "English",
-            "running-time": "1:30mins",
-            "quality": "HD",
-            "type": "comedy"
-        }
-    ],
-
-    "email-subscriptions": ["emmajerry2016@gmail.com", "sasha.blanca@fake.fake"]
+  "movies": [
+    {
+      "id": 1,
+      "title": "Invader",
+      "description": "är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, ",
+      "url": "https://www.youtube.com/embed/CUAMV-ADiv4",
+      "poster": "https://i.ibb.co/PrSJQff/action-poster1.jpg",
+      "release-date": "02.02.2020",
+      "language": "English",
+      "running-time": "1:30mins",
+      "quality": "HD",
+      "type": "action"
+    },
+    {
+      "id": 2,
+      "title": "The experiment",
+      "description": "är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, ",
+      "url": "https://www.youtube.com/embed/CUAMV-ADiv4",
+      "poster": "https://i.ibb.co/J5Lgmsn/action-poster3.jpg",
+      "release-date": "02.02.2020",
+      "language": "English",
+      "running-time": "1:30mins",
+      "quality": "HD",
+      "type": "action"
+    },
+    {
+      "id": 3,
+      "title": "THE hitman's bodyguard",
+      "description": "är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, ",
+      "url": "https://www.youtube.com/embed/CUAMV-ADiv4",
+      "poster": "https://i.ibb.co/J5Lgmsn/action-poster3.jpg",
+      "release-date": "01.02.202",
+      "language": "English",
+      "running-time": "1:30mins",
+      "quality": "HD",
+      "type": "action"
+    },
+    {
+      "id": 4,
+      "title": "Nite of a thousand laugh",
+      "description": "är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, ",
+      "url": "https://www.youtube.com/embed/sg-Qaeh__H4",
+      "poster": "https://i.ibb.co/gzJRsh4/tv-show1.jpg",
+      "release-date": "02.02.2020",
+      "language": "English",
+      "running-time": "1:30mins",
+      "quality": "HD",
+      "type": "tv-show"
+    },
+    {
+      "id": 5,
+      "title": "Gradualism is not dormancy",
+      "description": "är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, ",
+      "url": "https://www.youtube.com/embed/sg-Qaeh__H4",
+      "poster": "https://i.ibb.co/dJvYNr0/High-Fidelity-Weird-But-Warm-Episode-106-When-Liam-returns-from-tour-Rob-is-caught-between-the-fanta.jpg",
+      "release-date": "02.02.2020",
+      "language": "English",
+      "running-time": "1:30mins",
+      "quality": "HD",
+      "type": "tv-show"
+    },
+    {
+      "id": 6,
+      "title": "Laughing Machine",
+      "description": "är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, ",
+      "url": "https://www.youtube.com/embed/sg-Qaeh__H4",
+      "poster": "https://i.ibb.co/gzJRsh4/tv-show1.jpg",
+      "release-date": "02.02.2020",
+      "language": "English",
+      "running-time": "1:30mins",
+      "quality": "HD",
+      "type": "tv-show"
+    },
+    {
+      "id": 7,
+      "title": "Comedy random",
+      "description": "är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, ",
+      "url": "https://www.youtube.com/embed/s0gdBeTqql8",
+      "poster": "https://i.ibb.co/6N2KRP0/comedy-poster1.jpg",
+      "release-date": "02.02.2020",
+      "language": "English",
+      "running-time": "1:30mins",
+      "quality": "HD",
+      "type": "comedy"
+    },
+    {
+      "id": 8,
+      "title": "Mr Bean goes wrong",
+      "description": "är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, ",
+      "url": "https://www.youtube.com/embed/s0gdBeTqql8",
+      "poster": "https://i.ibb.co/3BZ1Y02/comedy-poster2.jpg",
+      "release-date": "02.02.2020",
+      "language": "English",
+      "running-time": "1:30mins",
+      "quality": "HD",
+      "type": "comedy"
+    },
+    {
+      "id": 9,
+      "title": "One wedding",
+      "description": "är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, ",
+      "url": "https://www.youtube.com/embed/s0gdBeTqql8",
+      "poster": "https://i.ibb.co/3BZ1Y02/comedy-poster2.jpg",
+      "release-date": "02.02.2020",
+      "language": "English",
+      "running-time": "1:30mins",
+      "quality": "HD",
+      "type": "comedy"
+    }
+  ],
+  "email-subscriptions": [
+    {
+      "id": 1,
+      "email": "emmajerry2016@gmail.com"
+    },
+    {
+      "id": 2,
+      "email": "sasha.blanca@fake.fake"
+    },
+    {
+      "email": "sasha.blanca@fake.fake",
+      "id": 3
+    }
+  ]
 }
