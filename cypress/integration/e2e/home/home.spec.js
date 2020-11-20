@@ -14,7 +14,7 @@ describe("home view testing", () => {
     });
 
     it("should close the menu items aside", () => {
-        cy.get("[data-test='closeMenuItemsBtn']").click();
+        cy.get("[data-test='menuIconBtn']").click();
     });
 
     it("should select a movie and expect a redirection", () => {
