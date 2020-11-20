@@ -5,3 +5,10 @@
     height: 50vh;
     color: #fff;
 }
+
+.search-and-movies-loader-container {
+    @media (min-width: 1400px) {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
