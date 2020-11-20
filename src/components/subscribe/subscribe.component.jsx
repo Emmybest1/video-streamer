@@ -20,8 +20,8 @@ const Subscribe = () => {
     };
     return (
         <form onSubmit={onSubmitHandler} data-test="subscribeForm">
-            <Input type="email" id={emailId} labelText="" name="email" data-test="subscribeEmail" placeholder="YOUR EMAIL" value={email} onChange={onChangeHandler} />
-            <Input type="submit" value="Subscribe Now" id={submitBtnId} data-test ="emailSubscribeBtn" labelText="" name="submitBtn" />
+            <Input type="email" id={emailId} labelText="" name="email" data-test="subscribeEmail" placeholder="YOUR EMAIL" value={email} onChange={onChangeHandler} required />
+            <Input type="submit" value="Subscribe Now" id={submitBtnId} data-test="emailSubscribeBtn" labelText="" name="submitBtn" />
         </form>
     );
 };
